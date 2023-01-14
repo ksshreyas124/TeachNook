@@ -1,0 +1,101 @@
+body{
+    background-color: aqua;
+    margin: 0;
+}
+
+header{
+    margin: 0 20px 20px 20px;
+    border: 30px;
+}
+
+.header{
+    display: block;
+    text-align: center; 
+    align-self: center; 
+    background-color: rgb(194, 252, 2);  
+    margin: 0 0px 10px 0px;
+    border: 30px;
+    height: 80px;
+    overflow: hidden;
+}
+.footer{
+    display: block;
+    text-align: center; 
+    align-self: center; 
+    background-color: rgb(194, 252, 2);  
+    margin-top:10px;
+    border: 30px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.card{
+    border:1px solid #ddd;
+    border-radius: 16px;
+    width: 360px;
+    height: 470px;
+    padding: 40px;
+    margin: 5px;
+    transition: .3s;
+    background-color: antiquewhite;
+
+}
+.box{
+    display: flex;
+}
+.rc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.rc:hover > :not(:hover){
+    filter: blur(1px);
+    background-color: gainsboro;
+}
+
+.card:hover{
+    width: 430px;
+    height: 510px;
+    border-color: rgb(141, 75, 202);
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.but{
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 10rem;
+}
+.but:hover{
+    background-color: rgb(24, 130, 230);
+    color: black;
+    cursor: pointer;
+}
+
+.texts{
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lc{
+    width: 180px;
+    height: 1000px;
+    background-color: rgb(227, 238, 237);
+    border-radius: 6px;
+    padding-top: 7px;
+    display: block;
+    margin: 0px 8px 0px 8px;
+}
+
+.side-bar{
+    margin-top: 60px;
+}
