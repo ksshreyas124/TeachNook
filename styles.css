@@ -1,6 +1,8 @@
 body{
-    background-color: turquoise;
+/*     background-color: turquoise; */
     margin: 0;
+    background-image: url('b.jpg') ;
+    background-size: cover;
 }
 
 header{
