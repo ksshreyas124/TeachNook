@@ -1,5 +1,4 @@
 body{
-/*     background-color: turquoise; */
     margin: 0;
     background-image: url('b.jpg') ;
     background-size: cover;
@@ -10,15 +9,21 @@ header{
     border: 30px;
 }
 
+
 .header{
     display: block;
     text-align: center; 
-    align-self: center; 
     background-color: rgb(194, 252, 2);  
     margin: 0 0px 10px 0px;
     border: 30px;
     height: 80px;
+    border-radius: 0 0 16px 16px;
     overflow: hidden;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-image: linear-gradient(to right bottom, orange, white, green);
+
 }
 .footer{
     display: block;
@@ -28,7 +33,9 @@ header{
     margin-top:10px;
     border: 30px;
     height: 80px;
+    border-radius: 16px 16px 0 0;
     overflow: hidden;
+    background-image: linear-gradient(to right bottom,rgb(0, 255, 247),rgb(255, 255, 255), rgb(0, 62, 128));
 }
 
 .card{
@@ -100,4 +107,14 @@ header{
 
 .side-bar{
     margin-top: 60px;
+}
+
+.bott{
+    padding-top: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right bottom, orange,white, green);
 }
